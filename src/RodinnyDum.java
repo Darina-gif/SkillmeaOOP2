@@ -1,5 +1,5 @@
 public class RodinnyDum {
-
+//pokus
     int pocetPoschodi;
 
     String material;
