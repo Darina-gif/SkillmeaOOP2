@@ -5,12 +5,12 @@ public class Banka {
     private float poplatky;
     private float konecnaCastka;
 
-    Banka(int roky, float pocatecniVlad, float urokovaSadzba, float poplatky, float konecnaCastka) {
+    Banka(int roky, float pocatecniVlad, float urokovaSadzba, float poplatky) {
         this.roky = roky;
         this.pocatecniVlad = pocatecniVlad;
         this.urokovaSadzba = urokovaSadzba;
         this.poplatky = poplatky;
-        this.konecnaCastka = konecnaCastka;
+
          }
 
      public float vypocetSporicihoUctu() {
@@ -20,7 +20,7 @@ public class Banka {
             konecnaCastka += konecnaCastka * (urokovaSadzba/100) - poplatky;
         }
 
-
+       return konecnaCastka;
 
      }
 

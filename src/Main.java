@@ -22,8 +22,13 @@ public class Main {
         //Misto pro zverimex
         Pes alik = new Pes(4, "labrador", 15, 2);
         alik.udelejZvuk();
-        Kocka micka = new Kocka(4, "Perska", 5, 10);
+        Kocka micka = new Kocka(4, "Perska", 8, 20);
         micka.udelejZvuk();
+
+        Banka mBank = new Banka(5,1000f,3.25f,5f);
+        System.out.println(mBank.vypocetSporicihoUctu());
+
+
 
     }
 }
